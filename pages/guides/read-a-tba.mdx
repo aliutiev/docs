@@ -102,7 +102,8 @@ we first define global functions and objects in `tba.tsx` component:
 import { useWalletClient } from 'wagmi'
 import { mainnet } from 'viem/chains'
 import { TokenboundClient } from '@tokenbound/sdk'
-import { type TBAccountParams } from "@tokenbound/sdk/dist/src/TokenboundClient";
+import { TBAccountParams } from "@tokenbound/sdk/dist/src/types";
+
 
 const DEFAULT_ACCOUNT: TBAccountParams = {
   tokenContract: "0xe7134a029cd2fd55f678d6809e64d0b6a0caddcb",
